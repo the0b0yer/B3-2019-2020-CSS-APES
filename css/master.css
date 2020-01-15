@@ -316,13 +316,13 @@ header:after {
 
 
 .strip-image {
-
+  height: 100px;
+  overflow: hidden;
 }
 
 .strip-image img {
   width: 100%;
-  background-size: contain;
-  height: 100px;
+  /* background-size: contain; */
 }
 
 /*### FOOTER Styles ###*/
