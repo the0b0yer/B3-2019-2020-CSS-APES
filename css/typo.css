@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+
+
+body {
+
+}
+
+p {
+  color: #282828;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  font-family: 'Yeon Sung', cursive;
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}

@@ -1,0 +1,72 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*### Hero Block per page type ###*/
+
+.hero {
+  background-image: url("images/bg-lanscape-02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 13% 28%;
+}
+
+.introduction {
+  border: 1px solid white;
+  padding: 40px 20px;
+  background-color: rgb(128,128,128, 0.3);
+  color: #484848;
+}
+
+.introduction h2 {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+/*## For the Home Page ##*/
+
+.home .hero {
+
+}
+
+.home .introduction {
+
+}
+
+/*## For the Dossier Page ##*/
+
+.dossier .hero  {
+
+}
+
+/*## list Page ##*/
+
+.gorilla-list {
+  display: flex;
+  flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.goilla-list-item {
+	flex-basis: 290px;
+	flex-grow: 1;
+	margin: 1vw;
+  padding: 20px 10px;
+}
+
+.gorilla-list img {
+  padding-top: 10px;
+  width: 100%;
+}
+
+.gorilla-list p {
+  padding-bottom: 20px;
+}
+
+footer {
+
+}
