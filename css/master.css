@@ -283,9 +283,27 @@ header:after {
   vertical-align: middle;
 }
 
-.dossier-top img {
-  float: left;
-  width: 50%;
+@media (max-width: 768px){
+  .dossier-top img {
+    width: 100%;
+  }
+  .dossier-top-content {
+    padding-top: 20px;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+
+@media (min-width: 767px){
+  .dossier-top img {
+    float: left;
+    width: 50%;
+  }
+  .dossier-top-content {
+    padding-top: 12%;
+    padding-right: 5%;
+    padding-left: 55%;
+  }
 }
 
 .dossier-top-content {
