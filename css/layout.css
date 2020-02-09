@@ -9,17 +9,38 @@
 /*### Hero Block per page type ###*/
 
 .hero {
-  background-image: url("images/bg-lanscape-02.jpg");
+  background-image: url("images/bg-lanscape-01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 13% 28%;
 }
 
+@media screen and (max-width: 1680px) {
+  .hero {
+    background-image: url("images/bg-lanscape-02.jpg");
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .hero {
+    background-image: url("images/bg-lanscape-03.jpg");
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .hero {
+    background-image: url("images/bg-lanscape-04.jpg");
+  }
+}
+
 .introduction {
   border: 1px solid white;
   padding: 40px 20px;
-  background-color: rgb(128,128,128, 0.3);
-  color: #484848;
+  background-color: rgb(72,72,72, 0.6);
+}
+
+.introduction * {
+  color: #fff;
 }
 
 .introduction h2 {
@@ -27,20 +48,10 @@
   text-align: center;
 }
 
-/*## For the Home Page ##*/
-
-.home .hero {
-
-}
-
-.home .introduction {
-
-}
-
-/*## For the Dossier Page ##*/
-
-.dossier .hero  {
-
+@media (max-width: 600px){
+  .hero {
+    padding: 5%;
+  }
 }
 
 /*## list Page ##*/
@@ -65,8 +76,4 @@
 
 .gorilla-list p {
   padding-bottom: 20px;
-}
-
-footer {
-
 }

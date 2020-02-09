@@ -1,8 +1,70 @@
 @import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
 
+/* -----------------------------------------------------------
+		@media général
+----------------------------------------------------------- */
 
-body {
+@media screen and (max-width: 1680px) {
 
+			html {
+				font-size: 12pt;
+			}
+
+      h1 {
+        font-size: 4rem;
+    		line-height: 1.5;
+      }
+
+      h2, h3, h4, h5, h6 {
+        font-size: 3rem;
+    		line-height: 1.5;
+      }
+
+		}
+
+@media screen and (max-width: 736px) {
+
+	html {
+		font-size: 11pt;
+	}
+
+	h1 {
+		font-size: 3.75rem;
+		line-height: 1.4;
+	}
+
+	h2 {
+		font-size: 3.25em;
+		line-height: 1.4;
+	}
+
+  h3, h4, h5, h6 {
+    font-size: 2rem;
+		line-height: 1.4;
+  }
+
+}
+
+@media screen and (max-width: 360px) {
+
+	html {
+		font-size: 10pt;
+	}
+
+}
+
+html {
+  font-size: 12pt;
+}
+
+h1 {
+  font-size: 4.5rem;
+  line-height: 1.5;
+}
+
+h2, h3, h4, h5, h6 {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 p {
@@ -12,17 +74,4 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   font-family: 'Yeon Sung', cursive;
-  font-size: 3rem;
 }
-
-h1 {
-  font-size: 4.5rem;
-}
-
-h2 {}
-
-h3 {}
-
-h4 {}
-
-h5 {}
