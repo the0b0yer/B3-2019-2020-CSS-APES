@@ -272,6 +272,10 @@ header:after {
   padding-bottom: 20px;
 }
 
+.pl-2 {
+  padding-left: 2rem;
+}
+
 /*### dossier-top Styles ###*/
 
 .dossier-top {
